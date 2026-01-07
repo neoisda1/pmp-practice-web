@@ -1,0 +1,337 @@
+{
+	"schemaVersion": "1.0",
+	"dataset": {
+		"title": "PMP Process Practice",
+		"notes": [
+			"This dataset is intended for study/practice. It includes the PMBOK 6 (49 processes) names and their process group + knowledge area mappings.",
+			"It intentionally does not include PMBOK copyrighted explanatory text or full ITTO tables."
+		],
+		"processGroups": [
+			"Initiating",
+			"Planning",
+			"Executing",
+			"Monitoring and Controlling",
+			"Closing"
+		],
+		"knowledgeAreas": [
+			"Integration Management",
+			"Scope Management",
+			"Schedule Management",
+			"Cost Management",
+			"Quality Management",
+			"Resource Management",
+			"Communications Management",
+			"Risk Management",
+			"Procurement Management",
+			"Stakeholder Management"
+		],
+		"ittosByProcessId": {},
+		"concepts": {
+			"principles": [],
+			"roles": [],
+			"notes": [
+				"Optional: add your own notes or licensed material here. This repo intentionally does not embed PMBOK copyrighted explanatory text or full ITTO tables."
+			]
+		},
+		"processes": [
+			{
+				"id": "4.1",
+				"name": "Develop Project Charter",
+				"processGroup": "Initiating",
+				"knowledgeArea": "Integration Management"
+			},
+			{
+				"id": "13.1",
+				"name": "Identify Stakeholders",
+				"processGroup": "Initiating",
+				"knowledgeArea": "Stakeholder Management"
+			},
+
+			{
+				"id": "4.2",
+				"name": "Develop Project Management Plan",
+				"processGroup": "Planning",
+				"knowledgeArea": "Integration Management"
+			},
+			{
+				"id": "5.1",
+				"name": "Plan Scope Management",
+				"processGroup": "Planning",
+				"knowledgeArea": "Scope Management"
+			},
+			{
+				"id": "5.2",
+				"name": "Collect Requirements",
+				"processGroup": "Planning",
+				"knowledgeArea": "Scope Management"
+			},
+			{
+				"id": "5.3",
+				"name": "Define Scope",
+				"processGroup": "Planning",
+				"knowledgeArea": "Scope Management"
+			},
+			{
+				"id": "5.4",
+				"name": "Create WBS",
+				"processGroup": "Planning",
+				"knowledgeArea": "Scope Management"
+			},
+			{
+				"id": "6.1",
+				"name": "Plan Schedule Management",
+				"processGroup": "Planning",
+				"knowledgeArea": "Schedule Management"
+			},
+			{
+				"id": "6.2",
+				"name": "Define Activities",
+				"processGroup": "Planning",
+				"knowledgeArea": "Schedule Management"
+			},
+			{
+				"id": "6.3",
+				"name": "Sequence Activities",
+				"processGroup": "Planning",
+				"knowledgeArea": "Schedule Management"
+			},
+			{
+				"id": "6.4",
+				"name": "Estimate Activity Durations",
+				"processGroup": "Planning",
+				"knowledgeArea": "Schedule Management"
+			},
+			{
+				"id": "6.5",
+				"name": "Develop Schedule",
+				"processGroup": "Planning",
+				"knowledgeArea": "Schedule Management"
+			},
+			{
+				"id": "7.1",
+				"name": "Plan Cost Management",
+				"processGroup": "Planning",
+				"knowledgeArea": "Cost Management"
+			},
+			{
+				"id": "7.2",
+				"name": "Estimate Costs",
+				"processGroup": "Planning",
+				"knowledgeArea": "Cost Management"
+			},
+			{
+				"id": "7.3",
+				"name": "Determine Budget",
+				"processGroup": "Planning",
+				"knowledgeArea": "Cost Management"
+			},
+			{
+				"id": "8.1",
+				"name": "Plan Quality Management",
+				"processGroup": "Planning",
+				"knowledgeArea": "Quality Management"
+			},
+			{
+				"id": "9.1",
+				"name": "Plan Resource Management",
+				"processGroup": "Planning",
+				"knowledgeArea": "Resource Management"
+			},
+			{
+				"id": "9.2",
+				"name": "Estimate Activity Resources",
+				"processGroup": "Planning",
+				"knowledgeArea": "Resource Management"
+			},
+			{
+				"id": "10.1",
+				"name": "Plan Communications Management",
+				"processGroup": "Planning",
+				"knowledgeArea": "Communications Management"
+			},
+			{
+				"id": "11.1",
+				"name": "Plan Risk Management",
+				"processGroup": "Planning",
+				"knowledgeArea": "Risk Management"
+			},
+			{
+				"id": "11.2",
+				"name": "Identify Risks",
+				"processGroup": "Planning",
+				"knowledgeArea": "Risk Management"
+			},
+			{
+				"id": "11.3",
+				"name": "Perform Qualitative Risk Analysis",
+				"processGroup": "Planning",
+				"knowledgeArea": "Risk Management"
+			},
+			{
+				"id": "11.4",
+				"name": "Perform Quantitative Risk Analysis",
+				"processGroup": "Planning",
+				"knowledgeArea": "Risk Management"
+			},
+			{
+				"id": "11.5",
+				"name": "Plan Risk Responses",
+				"processGroup": "Planning",
+				"knowledgeArea": "Risk Management"
+			},
+			{
+				"id": "12.1",
+				"name": "Plan Procurement Management",
+				"processGroup": "Planning",
+				"knowledgeArea": "Procurement Management"
+			},
+			{
+				"id": "13.2",
+				"name": "Plan Stakeholder Engagement",
+				"processGroup": "Planning",
+				"knowledgeArea": "Stakeholder Management"
+			},
+
+			{
+				"id": "4.3",
+				"name": "Direct and Manage Project Work",
+				"processGroup": "Executing",
+				"knowledgeArea": "Integration Management"
+			},
+			{
+				"id": "4.4",
+				"name": "Manage Project Knowledge",
+				"processGroup": "Executing",
+				"knowledgeArea": "Integration Management"
+			},
+			{
+				"id": "8.2",
+				"name": "Manage Quality",
+				"processGroup": "Executing",
+				"knowledgeArea": "Quality Management"
+			},
+			{
+				"id": "9.3",
+				"name": "Acquire Resources",
+				"processGroup": "Executing",
+				"knowledgeArea": "Resource Management"
+			},
+			{
+				"id": "9.4",
+				"name": "Develop Team",
+				"processGroup": "Executing",
+				"knowledgeArea": "Resource Management"
+			},
+			{
+				"id": "9.5",
+				"name": "Manage Team",
+				"processGroup": "Executing",
+				"knowledgeArea": "Resource Management"
+			},
+			{
+				"id": "10.2",
+				"name": "Manage Communications",
+				"processGroup": "Executing",
+				"knowledgeArea": "Communications Management"
+			},
+			{
+				"id": "11.6",
+				"name": "Implement Risk Responses",
+				"processGroup": "Executing",
+				"knowledgeArea": "Risk Management"
+			},
+			{
+				"id": "12.2",
+				"name": "Conduct Procurements",
+				"processGroup": "Executing",
+				"knowledgeArea": "Procurement Management"
+			},
+			{
+				"id": "13.3",
+				"name": "Manage Stakeholder Engagement",
+				"processGroup": "Executing",
+				"knowledgeArea": "Stakeholder Management"
+			},
+
+			{
+				"id": "4.5",
+				"name": "Monitor and Control Project Work",
+				"processGroup": "Monitoring and Controlling",
+				"knowledgeArea": "Integration Management"
+			},
+			{
+				"id": "4.6",
+				"name": "Perform Integrated Change Control",
+				"processGroup": "Monitoring and Controlling",
+				"knowledgeArea": "Integration Management"
+			},
+			{
+				"id": "5.5",
+				"name": "Validate Scope",
+				"processGroup": "Monitoring and Controlling",
+				"knowledgeArea": "Scope Management"
+			},
+			{
+				"id": "5.6",
+				"name": "Control Scope",
+				"processGroup": "Monitoring and Controlling",
+				"knowledgeArea": "Scope Management"
+			},
+			{
+				"id": "6.6",
+				"name": "Control Schedule",
+				"processGroup": "Monitoring and Controlling",
+				"knowledgeArea": "Schedule Management"
+			},
+			{
+				"id": "7.4",
+				"name": "Control Costs",
+				"processGroup": "Monitoring and Controlling",
+				"knowledgeArea": "Cost Management"
+			},
+			{
+				"id": "8.3",
+				"name": "Control Quality",
+				"processGroup": "Monitoring and Controlling",
+				"knowledgeArea": "Quality Management"
+			},
+			{
+				"id": "9.6",
+				"name": "Control Resources",
+				"processGroup": "Monitoring and Controlling",
+				"knowledgeArea": "Resource Management"
+			},
+			{
+				"id": "10.3",
+				"name": "Monitor Communications",
+				"processGroup": "Monitoring and Controlling",
+				"knowledgeArea": "Communications Management"
+			},
+			{
+				"id": "11.7",
+				"name": "Monitor Risks",
+				"processGroup": "Monitoring and Controlling",
+				"knowledgeArea": "Risk Management"
+			},
+			{
+				"id": "12.3",
+				"name": "Control Procurements",
+				"processGroup": "Monitoring and Controlling",
+				"knowledgeArea": "Procurement Management"
+			},
+			{
+				"id": "13.4",
+				"name": "Monitor Stakeholder Engagement",
+				"processGroup": "Monitoring and Controlling",
+				"knowledgeArea": "Stakeholder Management"
+			},
+
+			{
+				"id": "4.7",
+				"name": "Close Project or Phase",
+				"processGroup": "Closing",
+				"knowledgeArea": "Integration Management"
+			}
+		]
+	}
+}

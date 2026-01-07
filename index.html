@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>PMP Process Practice (PMBOK 6)</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="app">
+			<header class="header">
+				<div>
+					<h1 class="title">PMP Process Practice</h1>
+					<p class="subtitle">PMBOK 6 • 49 processes • quick drills</p>
+				</div>
+				<div class="stats" aria-live="polite">
+					<div class="stat"><span class="statLabel">Streak</span><span id="streak" class="statValue">0</span></div>
+					<div class="stat"><span class="statLabel">Correct</span><span id="correct" class="statValue">0</span></div>
+					<div class="stat"><span class="statLabel">Total</span><span id="total" class="statValue">0</span></div>
+				</div>
+			</header>
+
+			<main class="main">
+				<section class="panel">
+					<div class="panelRow">
+						<label class="label" for="mode">Practice mode</label>
+						<select id="mode" class="select">
+							<option value="group">Process → Process Group</option>
+							<option value="ka">Process → Knowledge Area</option>
+							<option value="both">Process → Group + Knowledge Area</option>
+							<option value="seq">Sequence: which comes earlier?</option>
+							<option value="itto">ITTO drill (import your data)</option>
+							<option value="flow">Study: process flow (by group)</option>
+						</select>
+					</div>
+					<div class="panelRow">
+						<button id="start" class="button">Start</button>
+						<button id="reset" class="button buttonSecondary" type="button">Reset stats</button>
+					</div>
+					<p id="status" class="status" role="status"></p>
+				</section>
+
+				<section class="panel">
+					<details>
+						<summary class="label">ITTO data (paste/import)</summary>
+						<p class="small">
+							To practice ITTOs, paste your own notes or licensed ITTO lists here (full phrases are recommended). This app won’t ship PMBOK copyrighted ITTO tables.
+						</p>
+						<textarea
+							id="ittoText"
+							class="textarea"
+							rows="8"
+							spellcheck="false"
+							placeholder='Paste JSON like (full phrases):
+{
+  "ittosByProcessId": {
+    "4.1": {
+      "inputs": ["Project charter", "Business case"],
+      "toolsAndTechniques": ["Expert judgment", "Data gathering"],
+      "outputs": ["Project charter"]
+    }
+  }
+}'
+						></textarea>
+						<div class="panelRow">
+							<button id="ittoTemplate" class="button buttonSecondary" type="button">Generate empty 49-process template</button>
+							<button id="ittoImport" class="button" type="button">Import ITTO JSON</button>
+							<button id="ittoExport" class="button buttonSecondary" type="button">Export current</button>
+							<button id="ittoClear" class="button buttonSecondary" type="button">Clear imported</button>
+						</div>
+						<p class="small" id="ittoHint"></p>
+					</details>
+				</section>
+
+				<section id="card" class="card" hidden>
+					<div class="cardHeader">
+						<div class="chip" id="chip">Question</div>
+						<div class="small" id="qid"></div>
+					</div>
+					<h2 id="prompt" class="prompt"></h2>
+					<div id="choices" class="choices" role="group" aria-label="Answer choices"></div>
+
+					<div class="feedbackRow">
+						<div id="feedback" class="feedback" aria-live="polite"></div>
+						<button id="next" class="button" type="button" disabled>Next</button>
+					</div>
+				</section>
+
+				<section id="flow" class="flow" hidden>
+					<h2 class="flowTitle">Process Flow (study view)</h2>
+					<p class="small">
+						This is a simple study view ordered by Process Group and process ID.
+						It’s meant as a practice aid (not a replacement for official materials).
+					</p>
+					<div id="flowContent" class="flowContent"></div>
+				</section>
+
+				<section class="legal">
+					<p class="small">
+						Note: This app contains process names and mappings only. It does not include the PMBOK® Guide’s copyrighted explanatory text or full ITTO tables.
+					</p>
+				</section>
+			</main>
+		</div>
+
+		<script type="module" src="main.js"></script>
+	</body>
+</html>
+
