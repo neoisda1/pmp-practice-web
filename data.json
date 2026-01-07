@@ -1,337 +1,2180 @@
 {
-	"schemaVersion": "1.0",
-	"dataset": {
-		"title": "PMP Process Practice",
-		"notes": [
-			"This dataset is intended for study/practice. It includes the PMBOK 6 (49 processes) names and their process group + knowledge area mappings.",
-			"It intentionally does not include PMBOK copyrighted explanatory text or full ITTO tables."
-		],
-		"processGroups": [
-			"Initiating",
-			"Planning",
-			"Executing",
-			"Monitoring and Controlling",
-			"Closing"
-		],
-		"knowledgeAreas": [
-			"Integration Management",
-			"Scope Management",
-			"Schedule Management",
-			"Cost Management",
-			"Quality Management",
-			"Resource Management",
-			"Communications Management",
-			"Risk Management",
-			"Procurement Management",
-			"Stakeholder Management"
-		],
-		"ittosByProcessId": {},
-		"concepts": {
-			"principles": [],
-			"roles": [],
-			"notes": [
-				"Optional: add your own notes or licensed material here. This repo intentionally does not embed PMBOK copyrighted explanatory text or full ITTO tables."
-			]
-		},
-		"processes": [
-			{
-				"id": "4.1",
-				"name": "Develop Project Charter",
-				"processGroup": "Initiating",
-				"knowledgeArea": "Integration Management"
-			},
-			{
-				"id": "13.1",
-				"name": "Identify Stakeholders",
-				"processGroup": "Initiating",
-				"knowledgeArea": "Stakeholder Management"
-			},
-
-			{
-				"id": "4.2",
-				"name": "Develop Project Management Plan",
-				"processGroup": "Planning",
-				"knowledgeArea": "Integration Management"
-			},
-			{
-				"id": "5.1",
-				"name": "Plan Scope Management",
-				"processGroup": "Planning",
-				"knowledgeArea": "Scope Management"
-			},
-			{
-				"id": "5.2",
-				"name": "Collect Requirements",
-				"processGroup": "Planning",
-				"knowledgeArea": "Scope Management"
-			},
-			{
-				"id": "5.3",
-				"name": "Define Scope",
-				"processGroup": "Planning",
-				"knowledgeArea": "Scope Management"
-			},
-			{
-				"id": "5.4",
-				"name": "Create WBS",
-				"processGroup": "Planning",
-				"knowledgeArea": "Scope Management"
-			},
-			{
-				"id": "6.1",
-				"name": "Plan Schedule Management",
-				"processGroup": "Planning",
-				"knowledgeArea": "Schedule Management"
-			},
-			{
-				"id": "6.2",
-				"name": "Define Activities",
-				"processGroup": "Planning",
-				"knowledgeArea": "Schedule Management"
-			},
-			{
-				"id": "6.3",
-				"name": "Sequence Activities",
-				"processGroup": "Planning",
-				"knowledgeArea": "Schedule Management"
-			},
-			{
-				"id": "6.4",
-				"name": "Estimate Activity Durations",
-				"processGroup": "Planning",
-				"knowledgeArea": "Schedule Management"
-			},
-			{
-				"id": "6.5",
-				"name": "Develop Schedule",
-				"processGroup": "Planning",
-				"knowledgeArea": "Schedule Management"
-			},
-			{
-				"id": "7.1",
-				"name": "Plan Cost Management",
-				"processGroup": "Planning",
-				"knowledgeArea": "Cost Management"
-			},
-			{
-				"id": "7.2",
-				"name": "Estimate Costs",
-				"processGroup": "Planning",
-				"knowledgeArea": "Cost Management"
-			},
-			{
-				"id": "7.3",
-				"name": "Determine Budget",
-				"processGroup": "Planning",
-				"knowledgeArea": "Cost Management"
-			},
-			{
-				"id": "8.1",
-				"name": "Plan Quality Management",
-				"processGroup": "Planning",
-				"knowledgeArea": "Quality Management"
-			},
-			{
-				"id": "9.1",
-				"name": "Plan Resource Management",
-				"processGroup": "Planning",
-				"knowledgeArea": "Resource Management"
-			},
-			{
-				"id": "9.2",
-				"name": "Estimate Activity Resources",
-				"processGroup": "Planning",
-				"knowledgeArea": "Resource Management"
-			},
-			{
-				"id": "10.1",
-				"name": "Plan Communications Management",
-				"processGroup": "Planning",
-				"knowledgeArea": "Communications Management"
-			},
-			{
-				"id": "11.1",
-				"name": "Plan Risk Management",
-				"processGroup": "Planning",
-				"knowledgeArea": "Risk Management"
-			},
-			{
-				"id": "11.2",
-				"name": "Identify Risks",
-				"processGroup": "Planning",
-				"knowledgeArea": "Risk Management"
-			},
-			{
-				"id": "11.3",
-				"name": "Perform Qualitative Risk Analysis",
-				"processGroup": "Planning",
-				"knowledgeArea": "Risk Management"
-			},
-			{
-				"id": "11.4",
-				"name": "Perform Quantitative Risk Analysis",
-				"processGroup": "Planning",
-				"knowledgeArea": "Risk Management"
-			},
-			{
-				"id": "11.5",
-				"name": "Plan Risk Responses",
-				"processGroup": "Planning",
-				"knowledgeArea": "Risk Management"
-			},
-			{
-				"id": "12.1",
-				"name": "Plan Procurement Management",
-				"processGroup": "Planning",
-				"knowledgeArea": "Procurement Management"
-			},
-			{
-				"id": "13.2",
-				"name": "Plan Stakeholder Engagement",
-				"processGroup": "Planning",
-				"knowledgeArea": "Stakeholder Management"
-			},
-
-			{
-				"id": "4.3",
-				"name": "Direct and Manage Project Work",
-				"processGroup": "Executing",
-				"knowledgeArea": "Integration Management"
-			},
-			{
-				"id": "4.4",
-				"name": "Manage Project Knowledge",
-				"processGroup": "Executing",
-				"knowledgeArea": "Integration Management"
-			},
-			{
-				"id": "8.2",
-				"name": "Manage Quality",
-				"processGroup": "Executing",
-				"knowledgeArea": "Quality Management"
-			},
-			{
-				"id": "9.3",
-				"name": "Acquire Resources",
-				"processGroup": "Executing",
-				"knowledgeArea": "Resource Management"
-			},
-			{
-				"id": "9.4",
-				"name": "Develop Team",
-				"processGroup": "Executing",
-				"knowledgeArea": "Resource Management"
-			},
-			{
-				"id": "9.5",
-				"name": "Manage Team",
-				"processGroup": "Executing",
-				"knowledgeArea": "Resource Management"
-			},
-			{
-				"id": "10.2",
-				"name": "Manage Communications",
-				"processGroup": "Executing",
-				"knowledgeArea": "Communications Management"
-			},
-			{
-				"id": "11.6",
-				"name": "Implement Risk Responses",
-				"processGroup": "Executing",
-				"knowledgeArea": "Risk Management"
-			},
-			{
-				"id": "12.2",
-				"name": "Conduct Procurements",
-				"processGroup": "Executing",
-				"knowledgeArea": "Procurement Management"
-			},
-			{
-				"id": "13.3",
-				"name": "Manage Stakeholder Engagement",
-				"processGroup": "Executing",
-				"knowledgeArea": "Stakeholder Management"
-			},
-
-			{
-				"id": "4.5",
-				"name": "Monitor and Control Project Work",
-				"processGroup": "Monitoring and Controlling",
-				"knowledgeArea": "Integration Management"
-			},
-			{
-				"id": "4.6",
-				"name": "Perform Integrated Change Control",
-				"processGroup": "Monitoring and Controlling",
-				"knowledgeArea": "Integration Management"
-			},
-			{
-				"id": "5.5",
-				"name": "Validate Scope",
-				"processGroup": "Monitoring and Controlling",
-				"knowledgeArea": "Scope Management"
-			},
-			{
-				"id": "5.6",
-				"name": "Control Scope",
-				"processGroup": "Monitoring and Controlling",
-				"knowledgeArea": "Scope Management"
-			},
-			{
-				"id": "6.6",
-				"name": "Control Schedule",
-				"processGroup": "Monitoring and Controlling",
-				"knowledgeArea": "Schedule Management"
-			},
-			{
-				"id": "7.4",
-				"name": "Control Costs",
-				"processGroup": "Monitoring and Controlling",
-				"knowledgeArea": "Cost Management"
-			},
-			{
-				"id": "8.3",
-				"name": "Control Quality",
-				"processGroup": "Monitoring and Controlling",
-				"knowledgeArea": "Quality Management"
-			},
-			{
-				"id": "9.6",
-				"name": "Control Resources",
-				"processGroup": "Monitoring and Controlling",
-				"knowledgeArea": "Resource Management"
-			},
-			{
-				"id": "10.3",
-				"name": "Monitor Communications",
-				"processGroup": "Monitoring and Controlling",
-				"knowledgeArea": "Communications Management"
-			},
-			{
-				"id": "11.7",
-				"name": "Monitor Risks",
-				"processGroup": "Monitoring and Controlling",
-				"knowledgeArea": "Risk Management"
-			},
-			{
-				"id": "12.3",
-				"name": "Control Procurements",
-				"processGroup": "Monitoring and Controlling",
-				"knowledgeArea": "Procurement Management"
-			},
-			{
-				"id": "13.4",
-				"name": "Monitor Stakeholder Engagement",
-				"processGroup": "Monitoring and Controlling",
-				"knowledgeArea": "Stakeholder Management"
-			},
-
-			{
-				"id": "4.7",
-				"name": "Close Project or Phase",
-				"processGroup": "Closing",
-				"knowledgeArea": "Integration Management"
-			}
-		]
-	}
+    "schemaVersion": "1.0",
+    "dataset": {
+        "title": "PMP Process Practice",
+        "notes": [
+            "This dataset is intended for study/practice. It includes the PMBOK 6 (49 processes) names and their process group + knowledge area mappings.",
+            "It intentionally does not include PMBOK copyrighted explanatory text or full ITTO tables."
+        ],
+        "processGroups": [
+            "Initiating",
+            "Planning",
+            "Executing",
+            "Monitoring and Controlling",
+            "Closing"
+        ],
+        "knowledgeAreas": [
+            "Integration Management",
+            "Scope Management",
+            "Schedule Management",
+            "Cost Management",
+            "Quality Management",
+            "Resource Management",
+            "Communications Management",
+            "Risk Management",
+            "Procurement Management",
+            "Stakeholder Management"
+        ],
+        "ittosByProcessId": {
+            "4.1": {
+                "inputs": [
+                    "Business documents",
+                    "Business case",
+                    "Benefits management plan",
+                    "Agreements",
+                    "EEF (Enterprise Environmental Factors)",
+                    "OPA (Organizational Process Assets)"
+                ],
+                "toolsAndTechniques": [
+                    "Expert judgement",
+                    "Data gathering",
+                    "Brainstorming",
+                    "Focus groups",
+                    "Interviews",
+                    "Interpersonal and team skills",
+                    "Conflict management",
+                    "Facilitation",
+                    "Meeting management",
+                    "Meetings"
+                ],
+                "outputs": [
+                    "Project charter",
+                    "Assumption log"
+                ]
+            },
+            "4.2": {
+                "inputs": [
+                    "Project charter",
+                    "Outputs from other processes",
+                    "EEF (Enterprise Environmental Factors)",
+                    "OPA (Organizational Process Assets)"
+                ],
+                "toolsAndTechniques": [
+                    "Expert judgement",
+                    "Data gathering",
+                    "Brainstorming",
+                    "Checklists",
+                    "Focus groups",
+                    "Interviews",
+                    "Interpersonal and team skills",
+                    "Conflict management",
+                    "Facilitation",
+                    "Meeting management",
+                    "Meetings"
+                ],
+                "outputs": [
+                    "Project management plan"
+                ]
+            },
+            "4.3": {
+                "inputs": [
+                    "Project management plan",
+                    "Any component",
+                    "Project documents",
+                    "Change log",
+                    "Lessons learned register",
+                    "Milestone list",
+                    "Project communications",
+                    "Project schedule",
+                    "Requirements traceability matrix",
+                    "Risk register",
+                    "Risk report",
+                    "Approved change requests",
+                    "EEF (Enterprise Environmental Factors)",
+                    "OPA (Organizational Process Assets)"
+                ],
+                "toolsAndTechniques": [
+                    "Expert judgement",
+                    "Project management information system",
+                    "Meetings"
+                ],
+                "outputs": [
+                    "Deliverables",
+                    "Work performance data",
+                    "Issue log",
+                    "Change requests",
+                    "Project management plan updates",
+                    "Any component",
+                    "Project documents updates",
+                    "Activity list",
+                    "Assumption log",
+                    "Lessons learned register",
+                    "Requirements documentation",
+                    "Risk register",
+                    "Stakeholder register",
+                    "OPA (Organizational Process Assets) updates"
+                ]
+            },
+            "4.4": {
+                "inputs": [
+                    "Project management plan",
+                    "All components",
+                    "Project documents",
+                    "Lessons learned register",
+                    "Project team assignments",
+                    "Resource breakdown structure",
+                    "Source selection criteria",
+                    "Stakeholder register",
+                    "Deliverables",
+                    "EEF (Enterprise Environmental Factors)",
+                    "OPA (Organizational Process Assets)"
+                ],
+                "toolsAndTechniques": [
+                    "Expert judgement",
+                    "Knowledge management",
+                    "Information management",
+                    "Interpersonal and team skills",
+                    "Active listening",
+                    "Facilitation",
+                    "Leadership",
+                    "Networking",
+                    "Political awareness"
+                ],
+                "outputs": [
+                    "Lessons learned register",
+                    "Project management plan updates",
+                    "Any component",
+                    "OPA (Organizational Process Assets) updates"
+                ]
+            },
+            "4.5": {
+                "inputs": [
+                    "Project management plan",
+                    "Any component",
+                    "Project documents",
+                    "Assumption log",
+                    "Basis of estimates",
+                    "Cost forecasts",
+                    "Issue log",
+                    "Lessons learned register",
+                    "Milestone list",
+                    "Quality reports",
+                    "Risk register",
+                    "Risk report",
+                    "Schedule forecasts",
+                    "Work performance information",
+                    "Agreements",
+                    "EEF (Enterprise Environmental Factors)",
+                    "OPA (Organizational Process Assets)"
+                ],
+                "toolsAndTechniques": [
+                    "Expert judgement",
+                    "Data analysis",
+                    "Alternatives analysis",
+                    "Cost-benefit analysis",
+                    "Earned value analysis",
+                    "Root cause analysis",
+                    "Trend analysis",
+                    "Variance analysis",
+                    "Decision making",
+                    "Meetings"
+                ],
+                "outputs": [
+                    "Work performance reports",
+                    "Change requests",
+                    "Project management plan updates",
+                    "Any component",
+                    "Project documents updates",
+                    "Cost forecasts",
+                    "Issue log",
+                    "Lessons learned register",
+                    "Risk register",
+                    "Schedule forecasts"
+                ]
+            },
+            "4.6": {
+                "inputs": [
+                    "Project management plan",
+                    "Change management plan",
+                    "Configuration management plan",
+                    "Scope baseline",
+                    "Schedule baseline",
+                    "Cost baseline",
+                    "Project documents",
+                    "Basis of estimates",
+                    "Requirements traceability matrix",
+                    "Risk report",
+                    "Work performance reports",
+                    "Change requests",
+                    "EEF (Enterprise Environmental Factors)",
+                    "OPA (Organizational Process Assets)"
+                ],
+                "toolsAndTechniques": [
+                    "Expert judgement",
+                    "Change control tools",
+                    "Data analysis",
+                    "Alternatives analysis",
+                    "Cost-benefit analysis",
+                    "Decision making",
+                    "Voting",
+                    "Autocratic decision making",
+                    "Multicriteria decision analysis",
+                    "Meetings"
+                ],
+                "outputs": [
+                    "Approved change requests",
+                    "Project management plan updates",
+                    "Any component",
+                    "Project documents updates",
+                    "Change log"
+                ]
+            },
+            "4.7": {
+                "inputs": [
+                    "Project charter",
+                    "Project management plan",
+                    "All components",
+                    "Project documents",
+                    "Assumption log",
+                    "Basis of estimates",
+                    "Change log",
+                    "Issue log",
+                    "Lessons learned register",
+                    "Milestone list",
+                    "Project communications",
+                    "Quality control measurements",
+                    "Quality reports",
+                    "Requirements documentation",
+                    "Risk register",
+                    "Risk report",
+                    "Accepted deliverables",
+                    "Business documents",
+                    "Business case",
+                    "Benefits management plan",
+                    "Agreements",
+                    "Procurement documentation",
+                    "OPA (Organizational Process Assets)"
+                ],
+                "toolsAndTechniques": [
+                    "Expert judgement",
+                    "Data analysis",
+                    "Document analysis",
+                    "Regression analysis",
+                    "Trend analysis",
+                    "Variance analysis",
+                    "Meetings"
+                ],
+                "outputs": [
+                    "Project documents updates",
+                    "Lessons learned register",
+                    "Final product, service, or result transition",
+                    "Final report",
+                    "OPA (Organizational Process Assets) updates"
+                ]
+            },
+            "5.1": {
+                "inputs": [
+                    "Project charter",
+                    "Project management plan",
+                    "Quality management plan",
+                    "Project life cycle description",
+                    "Development approach",
+                    "EEF (Enterprise Environmental Factors)",
+                    "OPA (Organizational Process Assets)"
+                ],
+                "toolsAndTechniques": [
+                    "Expert judgement",
+                    "Data analysis",
+                    "Alternatives analysis",
+                    "Meetings"
+                ],
+                "outputs": [
+                    "Scope management plan",
+                    "Requirements management plan"
+                ]
+            },
+            "5.2": {
+                "inputs": [
+                    "Project charter",
+                    "Project management plan",
+                    "Scope management plan",
+                    "Requirements management plan",
+                    "Stakeholder engagement plan",
+                    "Project documents",
+                    "Assumption log",
+                    "Lessons learned register",
+                    "Stakeholder register",
+                    "Business documents",
+                    "Business case",
+                    "Agreements",
+                    "EEF (Enterprise Environmental Factors)",
+                    "OPA (Organizational Process Assets)"
+                ],
+                "toolsAndTechniques": [
+                    "Expert judgement",
+                    "Data gathering",
+                    "Brainstorming",
+                    "Interviews",
+                    "Focus groups",
+                    "Questionnaires and surveys",
+                    "Benchmarking",
+                    "Data analysis",
+                    "Document analysis",
+                    "Decision making",
+                    "Voting",
+                    "Multicriteria decision analysis",
+                    "Data representation",
+                    "Affinity diagrams",
+                    "Mind mapping",
+                    "Interpersonal and team skills",
+                    "Nominal group technique",
+                    "Observation/conversation",
+                    "Facilitation",
+                    "Context diagram",
+                    "Prototypes"
+                ],
+                "outputs": [
+                    "Requirements documentation",
+                    "Requirements traceability matrix"
+                ]
+            },
+            "5.3": {
+                "inputs": [
+                    "Project charter",
+                    "Project management plan",
+                    "Scope management plan",
+                    "Project documents",
+                    "Assumption log",
+                    "Requirements documentation",
+                    "Risk register",
+                    "EEF (Enterprise Environmental Factors)",
+                    "OPA (Organizational Process Assets)"
+                ],
+                "toolsAndTechniques": [
+                    "Expert judgement",
+                    "Data analysis",
+                    "Alternatives analysis",
+                    "Decision making",
+                    "Multicriteria decision analysis",
+                    "Interpersonal and team skills",
+                    "Facilitation",
+                    "Product analysis"
+                ],
+                "outputs": [
+                    "Project scope statement",
+                    "Project documents updates",
+                    "Assumption log",
+                    "Requirements documentation",
+                    "Requirements traceability matrix",
+                    "Stakeholder register"
+                ]
+            },
+            "5.4": {
+                "inputs": [
+                    "Project management plan",
+                    "Scope management plan",
+                    "Project documents",
+                    "Project scope statement",
+                    "Requirements documentation",
+                    "EEF (Enterprise Environmental Factors)",
+                    "OPA (Organizational Process Assets)"
+                ],
+                "toolsAndTechniques": [
+                    "Expert judgement",
+                    "Decomposition"
+                ],
+                "outputs": [
+                    "Scope baseline",
+                    "Project documents updates",
+                    "Assumption log",
+                    "Requirements documentation"
+                ]
+            },
+            "5.5": {
+                "inputs": [
+                    "Project management plan",
+                    "Scope management plan",
+                    "Requirements management plan",
+                    "Scope baseline",
+                    "Project documents",
+                    "Lessons learned register",
+                    "Quality reports",
+                    "Requirements documentation",
+                    "Requirements traceability matrix",
+                    "Verified deliverables",
+                    "Work performance data"
+                ],
+                "toolsAndTechniques": [
+                    "Inspection",
+                    "Decision making",
+                    "Voting"
+                ],
+                "outputs": [
+                    "Accepted deliverables",
+                    "Work performance information",
+                    "Change requests",
+                    "Project documents updates",
+                    "Lessons learned register",
+                    "Requirements documentation",
+                    "Requirements traceability matrix"
+                ]
+            },
+            "5.6": {
+                "inputs": [
+                    "Project management plan",
+                    "Scope management plan",
+                    "Requirements management plan",
+                    "Change management plan",
+                    "Configuration management plan",
+                    "Scope baseline",
+                    "Performance measurement baseline",
+                    "Project documents",
+                    "Lessons learned register",
+                    "Requirements documentation",
+                    "Requirements traceability matrix",
+                    "Work performance data",
+                    "OPA (Organizational Process Assets)"
+                ],
+                "toolsAndTechniques": [
+                    "Data analysis",
+                    "Variance analysis",
+                    "Trend analysis"
+                ],
+                "outputs": [
+                    "Work performance information",
+                    "Change requests",
+                    "Project management plan updates",
+                    "Scope management plan",
+                    "Scope baseline",
+                    "Schedule baseline",
+                    "Cost baseline",
+                    "Performance measurement baseline",
+                    "Project documents updates",
+                    "Lessons learned register",
+                    "Requirements documentation",
+                    "Requirements traceability matrix"
+                ]
+            },
+            "6.1": {
+                "inputs": [
+                    "Project charter",
+                    "Project management plan",
+                    "Scope management plan",
+                    "Development approach",
+                    "EEF (Enterprise Environmental Factors)",
+                    "OPA (Organizational Process Assets)"
+                ],
+                "toolsAndTechniques": [
+                    "Expert judgement",
+                    "Data analysis",
+                    "Meetings"
+                ],
+                "outputs": [
+                    "Schedule management plan"
+                ]
+            },
+            "6.2": {
+                "inputs": [
+                    "Project management plan",
+                    "Schedule management plan",
+                    "Scope baseline",
+                    "EEF (Enterprise Environmental Factors)",
+                    "OPA (Organizational Process Assets)"
+                ],
+                "toolsAndTechniques": [
+                    "Expert judgement",
+                    "Decomposition",
+                    "Rolling wave planning",
+                    "Meetings"
+                ],
+                "outputs": [
+                    "Activity list",
+                    "Activity attributes",
+                    "Milestone list",
+                    "Change requests",
+                    "Project management plan updates",
+                    "Schedule baseline",
+                    "Cost baseline"
+                ]
+            },
+            "6.3": {
+                "inputs": [
+                    "Project management plan",
+                    "Schedule management plan",
+                    "Scope baseline",
+                    "Project documents",
+                    "Activity attributes",
+                    "Activity list",
+                    "Assumption log",
+                    "Milestone list",
+                    "EEF (Enterprise Environmental Factors)",
+                    "OPA (Organizational Process Assets)"
+                ],
+                "toolsAndTechniques": [
+                    "Precedence diagramming method",
+                    "Dependency determination and integration",
+                    "Leads and lags",
+                    "Project management information system"
+                ],
+                "outputs": [
+                    "Project schedule network diagrams",
+                    "Project documents updates",
+                    "Activity attributes",
+                    "Activity list",
+                    "Assumption log",
+                    "Milestone list"
+                ]
+            },
+            "6.4": {
+                "inputs": [
+                    "Project management plan",
+                    "Schedule management plan",
+                    "Scope baseline",
+                    "Project documents",
+                    "Activity attributes",
+                    "Activity list",
+                    "Assumption log",
+                    "Lessons learned register",
+                    "Milestone list",
+                    "Project team assignments",
+                    "Resource breakdown structure",
+                    "Resource calenders",
+                    "Resource requirements",
+                    "Risk register",
+                    "EEF (Enterprise Environmental Factors)",
+                    "OPA (Organizational Process Assets)"
+                ],
+                "toolsAndTechniques": [
+                    "Expert judgement",
+                    "Analogous estimating",
+                    "Parametric estimating",
+                    "Three-point estimating",
+                    "Bottom-up estimating",
+                    "Data analysis",
+                    "Alternatives analysis",
+                    "Reserve analysis",
+                    "Decision making",
+                    "Meetings"
+                ],
+                "outputs": [
+                    "Duration estimates",
+                    "Basis of estimates",
+                    "Project documents updates",
+                    "Activity attributes",
+                    "Assumption log",
+                    "Lessons learned register"
+                ]
+            },
+            "6.5": {
+                "inputs": [
+                    "Project management plan",
+                    "Schedule management plan",
+                    "Scope baseline",
+                    "Project documents",
+                    "Activity attributes",
+                    "Activity list",
+                    "Assumption log",
+                    "Basis of estimates",
+                    "Duration estimates",
+                    "Lessons learned register",
+                    "Milestone list",
+                    "Project schedule network diagrams",
+                    "Project team assignments",
+                    "Resource calenders",
+                    "Resource requirements",
+                    "Risk register",
+                    "Agreements",
+                    "EEF (Enterprise Environmental Factors)",
+                    "OPA (Organizational Process Assets)"
+                ],
+                "toolsAndTechniques": [
+                    "Schedule network analysis",
+                    "Critical path method",
+                    "Resource optimization",
+                    "Data analysis",
+                    "What-if scenario analysis",
+                    "Simulation",
+                    "Leads and lags",
+                    "Schedule compression",
+                    "Project management information system",
+                    "Agile release planning"
+                ],
+                "outputs": [
+                    "Schedule baseline",
+                    "Project schedule",
+                    "Schedule data",
+                    "Project calenders",
+                    "Change requests",
+                    "Project management plan updates",
+                    "Schedule management plan",
+                    "Cost baseline",
+                    "Project documents updates",
+                    "Activity attributes",
+                    "Assumption log",
+                    "Duration estimates",
+                    "Lessons learned register",
+                    "Resource requirements",
+                    "Risk register"
+                ]
+            },
+            "6.6": {
+                "inputs": [
+                    "Project management plan",
+                    "Schedule management plan",
+                    "Schedule baseline",
+                    "Scope baseline",
+                    "Performance measurement baseline",
+                    "Project documents",
+                    "Lessons learned register",
+                    "Project calenders",
+                    "Project schedule",
+                    "Resource calenders",
+                    "Schedule data",
+                    "Work performance data",
+                    "OPA (Organizational Process Assets)"
+                ],
+                "toolsAndTechniques": [
+                    "Data analysis",
+                    "Earned value analysis",
+                    "Iteration burndown chart",
+                    "Performance reviews",
+                    "Trend analysis",
+                    "Variance analysis",
+                    "What-if scenario analysis",
+                    "Critical path method",
+                    "Project management information system",
+                    "Resource optimization",
+                    "Leads and lags",
+                    "Schedule compression"
+                ],
+                "outputs": [
+                    "Work performance information",
+                    "Schedule forecasts",
+                    "Change requests",
+                    "Project management plan updates",
+                    "Schedule management plan",
+                    "Schedule baseline",
+                    "Cost baseline",
+                    "Performance measurement baseline",
+                    "Project documents updates",
+                    "Assumption log",
+                    "Basis of estimates",
+                    "Lessons learned register",
+                    "Project schedule",
+                    "Resource calenders",
+                    "Risk register",
+                    "Schedule data"
+                ]
+            },
+            "7.1": {
+                "inputs": [
+                    "Project charter",
+                    "Project management plan",
+                    "Schedule management plan",
+                    "Risk management plan",
+                    "EEF (Enterprise Environmental Factors)",
+                    "OPA (Organizational Process Assets)"
+                ],
+                "toolsAndTechniques": [
+                    "Expert judgement",
+                    "Data analysis",
+                    "Meetings"
+                ],
+                "outputs": [
+                    "Cost management plan"
+                ]
+            },
+            "7.2": {
+                "inputs": [
+                    "Project management plan",
+                    "Cost management plan",
+                    "Quality management plan",
+                    "Scope baseline",
+                    "Project documents",
+                    "Lessons learned register",
+                    "Project schedule",
+                    "Resource requirements",
+                    "Risk register",
+                    "EEF (Enterprise Environmental Factors)",
+                    "OPA (Organizational Process Assets)"
+                ],
+                "toolsAndTechniques": [
+                    "Expert judgement",
+                    "Analogous estimating",
+                    "Parametric estimating",
+                    "Bottom-up estimating",
+                    "Three-point estimating",
+                    "Data analysis",
+                    "Alternatives analysis",
+                    "Reserve analysis",
+                    "Cost of quality",
+                    "Project management information system",
+                    "Decision making",
+                    "Voting"
+                ],
+                "outputs": [
+                    "Cost estimates",
+                    "Basis of estimates",
+                    "Project documents updates",
+                    "Assumption log",
+                    "Lessons learned register",
+                    "Risk register"
+                ]
+            },
+            "7.3": {
+                "inputs": [
+                    "Project management plan",
+                    "Cost management plan",
+                    "Resource management plan",
+                    "Scope baseline",
+                    "Project documents",
+                    "Basis of estimates",
+                    "Cost estimates",
+                    "Project schedule",
+                    "Risk register",
+                    "Business documents",
+                    "Business case",
+                    "Benefits management plan",
+                    "Agreements",
+                    "EEF (Enterprise Environmental Factors)",
+                    "OPA (Organizational Process Assets)"
+                ],
+                "toolsAndTechniques": [
+                    "Expert judgement",
+                    "Cost aggregation",
+                    "Data analysis",
+                    "Reserve analysis",
+                    "Historical information review",
+                    "Funding limit reconciliation",
+                    "Financing"
+                ],
+                "outputs": [
+                    "Cost baseline",
+                    "Project funding requirements",
+                    "Project documents updates",
+                    "Cost estimates",
+                    "Project schedule",
+                    "Risk register"
+                ]
+            },
+            "7.4": {
+                "inputs": [
+                    "Project management plan",
+                    "Cost management plan",
+                    "Cost baseline",
+                    "Performance measurement baseline",
+                    "Project documents",
+                    "Lessons learned register",
+                    "Project funding requirements",
+                    "Work performance data",
+                    "OPA (Organizational Process Assets)"
+                ],
+                "toolsAndTechniques": [
+                    "Expert judgement",
+                    "Data analysis",
+                    "Earned value analysis",
+                    "Variance analysis",
+                    "Trend analysis",
+                    "Reserve analysis",
+                    "To-complete performance index",
+                    "Project management information system"
+                ],
+                "outputs": [
+                    "Work performance information",
+                    "Cost forecasts",
+                    "Change requests",
+                    "Project management plan updates",
+                    "Cost management plan",
+                    "Cost baseline",
+                    "Performance measurement baseline",
+                    "Project documents updates",
+                    "Assumption log",
+                    "Basis of estimates",
+                    "Cost estimates",
+                    "Lessons learned register",
+                    "Risk register"
+                ]
+            },
+            "8.1": {
+                "inputs": [
+                    "Project charter",
+                    "Project management plan",
+                    "Requirements management plan",
+                    "Risk management plan",
+                    "Stakeholder engagement plan",
+                    "Scope baseline",
+                    "Project documents",
+                    "Assumption log",
+                    "Requirements documentation",
+                    "Requirements traceability matrix",
+                    "Risk register",
+                    "Stakeholder register",
+                    "EEF (Enterprise Environmental Factors)",
+                    "OPA (Organizational Process Assets)"
+                ],
+                "toolsAndTechniques": [
+                    "Expert judgement",
+                    "Data gathering",
+                    "Benchmarking",
+                    "Brainstorming",
+                    "Interviews",
+                    "Data analysis",
+                    "Cost-benefit analysis",
+                    "Cost of quality",
+                    "Decision making",
+                    "Multicriteria decision analysis",
+                    "Data representation",
+                    "Flowcharts",
+                    "Logical data model",
+                    "Matrix diagrams",
+                    "Mind mapping",
+                    "Test and inspection planning",
+                    "Meetings"
+                ],
+                "outputs": [
+                    "Quality management plan",
+                    "Quality metrics",
+                    "Project management plan updates",
+                    "Risk management plan",
+                    "Scope baseline",
+                    "Project documents updates",
+                    "Lessons learned register",
+                    "Requirements traceability matrix",
+                    "Risk register",
+                    "Stakeholder register"
+                ]
+            },
+            "8.2": {
+                "inputs": [
+                    "Project management plan",
+                    "Quality management plan",
+                    "Project documents",
+                    "Lessons learned register",
+                    "Quality control measurements",
+                    "Quality metrics",
+                    "Risk report",
+                    "OPA (Organizational Process Assets)"
+                ],
+                "toolsAndTechniques": [
+                    "Data gathering",
+                    "Checklists",
+                    "Data analysis",
+                    "Alternatives analysis",
+                    "Document analysis",
+                    "Process analysis",
+                    "Root cause analysis",
+                    "Decision making",
+                    "Multicriteria decision analysis",
+                    "Data representation",
+                    "Affinity diagrams",
+                    "Cause-and-effect diagrams",
+                    "Flowcharts",
+                    "Histograms",
+                    "Matrix diagrams",
+                    "Scatter diagrams",
+                    "Audits",
+                    "Design for X",
+                    "Problem solving",
+                    "Quality improvement methods"
+                ],
+                "outputs": [
+                    "Quality reports",
+                    "Test and evaluation documents",
+                    "Change requests",
+                    "Project management plan updates",
+                    "Quality management plan",
+                    "Scope baseline",
+                    "Schedule baseline",
+                    "Cost baseline",
+                    "Project documents updates",
+                    "Issue log",
+                    "Lessons learned register",
+                    "Risk register"
+                ]
+            },
+            "8.3": {
+                "inputs": [
+                    "Project management plan",
+                    "Quality management plan",
+                    "Project documents",
+                    "Lessons learned register",
+                    "Quality metrics",
+                    "Test and evaluation documents",
+                    "Approved change requests",
+                    "Deliverables",
+                    "Work performance data",
+                    "EEF (Enterprise Environmental Factors)",
+                    "OPA (Organizational Process Assets)"
+                ],
+                "toolsAndTechniques": [
+                    "Data gathering",
+                    "Checklists",
+                    "Check sheets",
+                    "Statistical sampling",
+                    "Questionnaires and surveys",
+                    "Data analysis",
+                    "Performance reviews",
+                    "Root cause analysis",
+                    "Inspection",
+                    "Testing/product evaluations",
+                    "Data representation",
+                    "Cause-and-effect diagrams",
+                    "Control charts",
+                    "Histograms",
+                    "Scatter diagrams",
+                    "Meetings"
+                ],
+                "outputs": [
+                    "Quality control measurements",
+                    "Verified deliverables",
+                    "Work performance information",
+                    "Change requests",
+                    "Project management plan updates",
+                    "Quality management plan",
+                    "Project documents updates",
+                    "Issue log",
+                    "Lessons learned register",
+                    "Risk register",
+                    "Test and evaluation documents"
+                ]
+            },
+            "9.1": {
+                "inputs": [
+                    "Project charter",
+                    "Project management plan",
+                    "Quality management plan",
+                    "Scope baseline",
+                    "Project documents",
+                    "Project schedule",
+                    "Requirements documentation",
+                    "Risk register",
+                    "Stakeholder register",
+                    "EEF (Enterprise Environmental Factors)",
+                    "OPA (Organizational Process Assets)"
+                ],
+                "toolsAndTechniques": [
+                    "Expert judgement",
+                    "Data representation",
+                    "Hierarchical charts",
+                    "Responsibility assignment matrix",
+                    "Text-oriented formats",
+                    "Organizational theory",
+                    "Meetings"
+                ],
+                "outputs": [
+                    "Resource management plan",
+                    "Team charter",
+                    "Project documents updates",
+                    "Assumption log",
+                    "Risk register"
+                ]
+            },
+            "9.2": {
+                "inputs": [
+                    "Project management plan",
+                    "Resource management plan",
+                    "Scope baseline",
+                    "Project documents",
+                    "Activity attributes",
+                    "Activity list",
+                    "Assumption log",
+                    "Cost estimates",
+                    "Resource calenders",
+                    "Risk register",
+                    "EEF (Enterprise Environmental Factors)",
+                    "OPA (Organizational Process Assets)"
+                ],
+                "toolsAndTechniques": [
+                    "Expert judgement",
+                    "Bottom-up estimating",
+                    "Analogous estimating",
+                    "Parametric estimating",
+                    "Data analysis",
+                    "Alternatives analysis",
+                    "Project management information system",
+                    "Meetings"
+                ],
+                "outputs": [
+                    "Resource requirements",
+                    "Basis of estimates",
+                    "Resource breakdown structure",
+                    "Project documents updates",
+                    "Activity attributes",
+                    "Assumption log",
+                    "Lessons learned register"
+                ]
+            },
+            "9.3": {
+                "inputs": [
+                    "Project management plan",
+                    "Resource management plan",
+                    "Procurement management plan",
+                    "Cost baseline",
+                    "Project documents",
+                    "Project schedule",
+                    "Resource calenders",
+                    "Resource requirements",
+                    "Stakeholder register",
+                    "EEF (Enterprise Environmental Factors)",
+                    "OPA (Organizational Process Assets)"
+                ],
+                "toolsAndTechniques": [
+                    "Decision making",
+                    "Multicriteria decision analysis",
+                    "Interpersonal and team skills",
+                    "Negotiation",
+                    "Pre-assignment",
+                    "Virtual teams"
+                ],
+                "outputs": [
+                    "Physical resource assignments",
+                    "Project team assignments",
+                    "Resource calenders",
+                    "Change requests",
+                    "Project management plan updates",
+                    "Resource management plan",
+                    "Cost baseline",
+                    "Project documents updates",
+                    "Lessons learned register",
+                    "Project schedule",
+                    "Resource breakdown structure",
+                    "Resource requirements",
+                    "Risk register",
+                    "Stakeholder register",
+                    "EEF (Enterprise Environmental Factors) updates",
+                    "OPA (Organizational Process Assets) updates"
+                ]
+            },
+            "9.4": {
+                "inputs": [
+                    "Project management plan",
+                    "Resource management plan",
+                    "Project documents",
+                    "Lessons learned register",
+                    "Project schedule",
+                    "Project team assignments",
+                    "Resource calenders",
+                    "Team charter",
+                    "EEF (Enterprise Environmental Factors)",
+                    "OPA (Organizational Process Assets)"
+                ],
+                "toolsAndTechniques": [
+                    "Colocation",
+                    "Virtual teams",
+                    "Communication technology",
+                    "Interpersonal and team skills",
+                    "Conflict management",
+                    "Influencing",
+                    "Motivation",
+                    "Negotiation",
+                    "Team building",
+                    "Recognition and rewards",
+                    "Training",
+                    "Individual and team assessments",
+                    "Meetings"
+                ],
+                "outputs": [
+                    "Team performance assessments",
+                    "Change requests",
+                    "Project management plan updates",
+                    "Resource management plan",
+                    "Project documents updates",
+                    "Lessons learned register",
+                    "Project schedule",
+                    "Project team assignments",
+                    "Resource calenders",
+                    "Team charter",
+                    "EEF (Enterprise Environmental Factors) updates",
+                    "OPA (Organizational Process Assets) updates"
+                ]
+            },
+            "9.5": {
+                "inputs": [
+                    "Project management plan",
+                    "Resource management plan",
+                    "Project documents",
+                    "Issue log",
+                    "Lessons learned register",
+                    "Project team assignments",
+                    "Team charter",
+                    "Work performance reports",
+                    "Team performance assessments",
+                    "EEF (Enterprise Environmental Factors)",
+                    "OPA (Organizational Process Assets)"
+                ],
+                "toolsAndTechniques": [
+                    "Interpersonal and team skills",
+                    "Conflict management",
+                    "Decision making",
+                    "Emotional intelligence",
+                    "Influencing",
+                    "Leadership",
+                    "Project management information system"
+                ],
+                "outputs": [
+                    "Change requests",
+                    "Project management plan updates",
+                    "Resource management plan",
+                    "Schedule baseline",
+                    "Cost baseline",
+                    "Project documents updates",
+                    "Issue log",
+                    "Lessons learned register",
+                    "Project team assignments",
+                    "EEF (Enterprise Environmental Factors) updates"
+                ]
+            },
+            "9.6": {
+                "inputs": [
+                    "Project management plan",
+                    "Resource management plan",
+                    "Project documents",
+                    "Issue log",
+                    "Lessons learned register",
+                    "Physical resource assignments",
+                    "Project schedule",
+                    "Resource breakdown structure",
+                    "Resource requirements",
+                    "Risk register",
+                    "Work performance data",
+                    "Agreements",
+                    "OPA (Organizational Process Assets)"
+                ],
+                "toolsAndTechniques": [
+                    "Data analysis",
+                    "Alternatives analysis",
+                    "Cost-benefit analysis",
+                    "Performance reviews",
+                    "Trend analysis",
+                    "Problem solving",
+                    "Interpersonal and team skills",
+                    "Negotiation",
+                    "Influencing",
+                    "Project management information system"
+                ],
+                "outputs": [
+                    "Work performance information",
+                    "Change requests",
+                    "Project management plan updates",
+                    "Resource management plan",
+                    "Schedule baseline",
+                    "Cost baseline",
+                    "Project documents updates",
+                    "Assumption log",
+                    "Issue log",
+                    "Lessons learned register",
+                    "Physical resource assignments",
+                    "Resource breakdown structure",
+                    "Risk register"
+                ]
+            },
+            "10.1": {
+                "inputs": [
+                    "Project charter",
+                    "Project management plan",
+                    "Resource management plan",
+                    "Stakeholder engagement plan",
+                    "Project documents",
+                    "Requirements documentation",
+                    "Stakeholder register",
+                    "EEF (Enterprise Environmental Factors)",
+                    "OPA (Organizational Process Assets)"
+                ],
+                "toolsAndTechniques": [
+                    "Expert judgement",
+                    "Communications requirements analysis",
+                    "Communication technology",
+                    "Communication models",
+                    "Communication methods",
+                    "Interpersonal and team skills",
+                    "Communication styles assessment",
+                    "Political awareness",
+                    "Cultural awareness",
+                    "Data representation",
+                    "Stakeholder engagement assessment matrix",
+                    "Meetings"
+                ],
+                "outputs": [
+                    "Communications management plan",
+                    "Project management plan updates",
+                    "Stakeholder engagement plan",
+                    "Project documents updates",
+                    "Project schedule",
+                    "Stakeholder register"
+                ]
+            },
+            "10.2": {
+                "inputs": [
+                    "Project management plan",
+                    "Resource management plan",
+                    "Communications management plan",
+                    "Stakeholder engagement plan",
+                    "Project documents",
+                    "Change log",
+                    "Issue log",
+                    "Lessons learned register",
+                    "Quality reports",
+                    "Risk report",
+                    "Stakeholder register",
+                    "Work performance reports",
+                    "EEF (Enterprise Environmental Factors)",
+                    "OPA (Organizational Process Assets)"
+                ],
+                "toolsAndTechniques": [
+                    "Communication technology",
+                    "Communication methods",
+                    "Communication skills",
+                    "Communication competence",
+                    "Feedback",
+                    "Nonverbal",
+                    "Presentations",
+                    "Project management information system",
+                    "Project reporting",
+                    "Interpersonal and team skills",
+                    "Active listening",
+                    "Conflict management",
+                    "Cultural awareness",
+                    "Meeting management",
+                    "Networking",
+                    "Political awareness",
+                    "Meetings"
+                ],
+                "outputs": [
+                    "Project communications",
+                    "Project management plan updates",
+                    "Communications management plan",
+                    "Stakeholder engagement plan",
+                    "Project documents updates",
+                    "Issue log",
+                    "Lessons learned register",
+                    "Project schedule",
+                    "Risk register",
+                    "Stakeholder register",
+                    "OPA (Organizational Process Assets) updates"
+                ]
+            },
+            "10.3": {
+                "inputs": [
+                    "Project management plan",
+                    "Resource management plan",
+                    "Communications management plan",
+                    "Stakeholder engagement plan",
+                    "Project documents",
+                    "Issue log",
+                    "Lessons learned register",
+                    "Project communications",
+                    "Work performance data",
+                    "EEF (Enterprise Environmental Factors)",
+                    "OPA (Organizational Process Assets)"
+                ],
+                "toolsAndTechniques": [
+                    "Expert judgement",
+                    "Project management information system",
+                    "Data analysis",
+                    "Stakeholder engagement assessment matrix",
+                    "Interpersonal and team skills",
+                    "Observation/conversation",
+                    "Meetings"
+                ],
+                "outputs": [
+                    "Work performance information",
+                    "Change requests",
+                    "Project management plan updates",
+                    "Communications management plan",
+                    "Stakeholder engagement plan",
+                    "Project documents updates",
+                    "Issue log",
+                    "Lessons learned register",
+                    "Stakeholder register"
+                ]
+            },
+            "11.1": {
+                "inputs": [
+                    "Project charter",
+                    "Project management plan",
+                    "All components",
+                    "Project documents",
+                    "Stakeholder register",
+                    "EEF (Enterprise Environmental Factors)",
+                    "OPA (Organizational Process Assets)"
+                ],
+                "toolsAndTechniques": [
+                    "Expert judgement",
+                    "Data analysis",
+                    "Stakeholder analysis",
+                    "Meetings"
+                ],
+                "outputs": [
+                    "Risk management plan"
+                ]
+            },
+            "11.2": {
+                "inputs": [
+                    "Project management plan",
+                    "Requirements management plan",
+                    "Schedule management plan",
+                    "Cost management plan",
+                    "Quality management plan",
+                    "Resource management plan",
+                    "Risk management plan",
+                    "Scope baseline",
+                    "Schedule baseline",
+                    "Cost baseline",
+                    "Project documents",
+                    "Assumption log",
+                    "Cost estimates",
+                    "Duration estimates",
+                    "Issue log",
+                    "Lessons learned register",
+                    "Requirements documentation",
+                    "Resource requirements",
+                    "Stakeholder register",
+                    "Agreements",
+                    "Procurement documentation",
+                    "EEF (Enterprise Environmental Factors)",
+                    "OPA (Organizational Process Assets)"
+                ],
+                "toolsAndTechniques": [
+                    "Expert judgement",
+                    "Data gathering",
+                    "Brainstorming",
+                    "Checklists",
+                    "Interviews",
+                    "Data analysis",
+                    "Root cause analysis",
+                    "Assumption and constraint analysis",
+                    "SWOT analysis",
+                    "Document analysis",
+                    "Interpersonal and team skills",
+                    "Facilitation",
+                    "Prompt lists",
+                    "Meetings"
+                ],
+                "outputs": [
+                    "Risk register",
+                    "Risk report",
+                    "Project documents updates",
+                    "Assumption log",
+                    "Issue log",
+                    "Lessons learned register"
+                ]
+            },
+            "11.3": {
+                "inputs": [
+                    "Project management plan",
+                    "Risk management plan",
+                    "Project documents",
+                    "Assumption log",
+                    "Risk register",
+                    "Stakeholder register",
+                    "EEF (Enterprise Environmental Factors)",
+                    "OPA (Organizational Process Assets)"
+                ],
+                "toolsAndTechniques": [
+                    "Expert judgement",
+                    "Data gathering",
+                    "Interviews",
+                    "Data analysis",
+                    "Risk data quality assessment",
+                    "Risk probability and impact assessment",
+                    "Assessment of other risk parameters",
+                    "Interpersonal and team skills",
+                    "Facilitation",
+                    "Risk categorization",
+                    "Data representation",
+                    "Probability and impact matrix",
+                    "Hierarchical charts",
+                    "Meetings"
+                ],
+                "outputs": [
+                    "Project documents updates",
+                    "Assumption log",
+                    "Issue log",
+                    "Risk register",
+                    "Risk report"
+                ]
+            },
+            "11.4": {
+                "inputs": [
+                    "Project management plan",
+                    "Risk management plan",
+                    "Scope baseline",
+                    "Schedule baseline",
+                    "Cost baseline",
+                    "Project documents",
+                    "Assumption log",
+                    "Basis of estimates",
+                    "Cost estimates",
+                    "Cost forecasts",
+                    "Duration estimates",
+                    "Milestone list",
+                    "Resource requirements",
+                    "Risk register",
+                    "Risk report",
+                    "Schedule forecasts",
+                    "EEF (Enterprise Environmental Factors)",
+                    "OPA (Organizational Process Assets)"
+                ],
+                "toolsAndTechniques": [
+                    "Expert judgement",
+                    "Data gathering",
+                    "Interviews",
+                    "Interpersonal and team skills",
+                    "Facilitation",
+                    "Representations of uncertainty",
+                    "Data analysis",
+                    "Simulation",
+                    "Sensitivity analysis",
+                    "Decision tree analysis",
+                    "Influence diagrams"
+                ],
+                "outputs": [
+                    "Project documents updates",
+                    "Risk report"
+                ]
+            },
+            "11.5": {
+                "inputs": [
+                    "Project management plan",
+                    "Resource management plan",
+                    "Risk management plan",
+                    "Cost baseline",
+                    "Project documents",
+                    "Lessons learned register",
+                    "Project schedule",
+                    "Project team assignments",
+                    "Resource calenders",
+                    "Risk register",
+                    "Risk report",
+                    "Stakeholder register",
+                    "EEF (Enterprise Environmental Factors)",
+                    "OPA (Organizational Process Assets)"
+                ],
+                "toolsAndTechniques": [
+                    "Expert judgement",
+                    "Data gathering",
+                    "Interviews",
+                    "Interpersonal and team skills",
+                    "Facilitation",
+                    "Strategies for threats",
+                    "Strategies for opportunities",
+                    "Contingent response strategies",
+                    "Strategies for overall project risk",
+                    "Data analysis",
+                    "Alternatives analysis",
+                    "Cost-benefit analysis",
+                    "Decision making",
+                    "Multicriteria decision analysis"
+                ],
+                "outputs": [
+                    "Change requests",
+                    "Project management plan updates",
+                    "Schedule management plan",
+                    "Cost management plan",
+                    "Quality management plan",
+                    "Resource management plan",
+                    "Procurement management plan",
+                    "Scope baseline",
+                    "Schedule baseline",
+                    "Cost baseline",
+                    "Project documents updates",
+                    "Assumption log",
+                    "Cost forecasts",
+                    "Lessons learned register",
+                    "Project schedule",
+                    "Project team assignments",
+                    "Risk register",
+                    "Risk report"
+                ]
+            },
+            "11.6": {
+                "inputs": [
+                    "Project management plan",
+                    "Risk management plan",
+                    "Project documents",
+                    "Lessons learned register",
+                    "Risk register",
+                    "Risk report",
+                    "OPA (Organizational Process Assets)"
+                ],
+                "toolsAndTechniques": [
+                    "Expert judgement",
+                    "Interpersonal and team skills",
+                    "Influencing",
+                    "Project management information system"
+                ],
+                "outputs": [
+                    "Change requests",
+                    "Project documents updates",
+                    "Issue log",
+                    "Lessons learned register",
+                    "Project team assignments",
+                    "Risk register",
+                    "Risk report"
+                ]
+            },
+            "11.7": {
+                "inputs": [
+                    "Project management plan",
+                    "Risk management plan",
+                    "Project documents",
+                    "Issue log",
+                    "Lessons learned register",
+                    "Risk register",
+                    "Risk report",
+                    "Work performance data",
+                    "Work performance reports"
+                ],
+                "toolsAndTechniques": [
+                    "Data analysis",
+                    "Technical performance analysis",
+                    "Reserve analysis",
+                    "Audits",
+                    "Meetings"
+                ],
+                "outputs": [
+                    "Work performance information",
+                    "Change requests",
+                    "Project management plan updates",
+                    "Any component",
+                    "Project documents updates",
+                    "Assumption log",
+                    "Issue log",
+                    "Lessons learned register",
+                    "Risk register",
+                    "Risk report",
+                    "OPA (Organizational Process Assets) updates"
+                ]
+            },
+            "12.1": {
+                "inputs": [
+                    "Project charter",
+                    "Business documents",
+                    "Business case",
+                    "Benefits management plan",
+                    "Project management plan",
+                    "Scope management plan",
+                    "Quality management plan",
+                    "Resource management plan",
+                    "Scope baseline",
+                    "Project documents",
+                    "Milestone list",
+                    "Project team assignments",
+                    "Requirements documentation",
+                    "Requirements traceability matrix",
+                    "Resource requirements",
+                    "Risk register",
+                    "Stakeholder register",
+                    "EEF (Enterprise Environmental Factors)",
+                    "OPA (Organizational Process Assets)"
+                ],
+                "toolsAndTechniques": [
+                    "Expert judgement",
+                    "Data gathering",
+                    "Market research",
+                    "Data analysis",
+                    "Make-or-buy analysis",
+                    "Source selection analysis",
+                    "Meetings"
+                ],
+                "outputs": [
+                    "Procurement management plan",
+                    "Procurement strategy",
+                    "Bid documents",
+                    "Procurement statement of work",
+                    "Source selection criteria",
+                    "Make-or-buy decisions",
+                    "Independent cost estimates",
+                    "Change requests",
+                    "Project documents updates",
+                    "Lessons learned register",
+                    "Milestone list",
+                    "Requirements documentation",
+                    "Requirements traceability matrix",
+                    "Risk register",
+                    "Stakeholder register",
+                    "OPA (Organizational Process Assets) updates"
+                ]
+            },
+            "12.2": {
+                "inputs": [
+                    "Project management plan",
+                    "Scope management plan",
+                    "Requirements management plan",
+                    "Communications management plan",
+                    "Risk management plan",
+                    "Procurement management plan",
+                    "Configuration management plan",
+                    "Cost baseline",
+                    "Project documents",
+                    "Lessons learned register",
+                    "Project schedule",
+                    "Requirements documentation",
+                    "Risk register",
+                    "Stakeholder register",
+                    "Procurement documentation",
+                    "Seller proposals",
+                    "EEF (Enterprise Environmental Factors)",
+                    "OPA (Organizational Process Assets)"
+                ],
+                "toolsAndTechniques": [
+                    "Expert judgement",
+                    "Advertising",
+                    "Bidder conferences",
+                    "Data analysis",
+                    "Proposal evaluation",
+                    "Interpersonal and team skills",
+                    "Negotiation"
+                ],
+                "outputs": [
+                    "Selected sellers",
+                    "Agreements",
+                    "Change requests",
+                    "Project management plan updates",
+                    "Requirements management plan",
+                    "Quality management plan",
+                    "Communications management plan",
+                    "Risk management plan",
+                    "Procurement management plan",
+                    "Scope baseline",
+                    "Schedule baseline",
+                    "Cost baseline",
+                    "Project documents updates",
+                    "Lessons learned register",
+                    "Requirements documentation",
+                    "Requirements traceability matrix",
+                    "Resource calenders",
+                    "Risk register",
+                    "Stakeholder register",
+                    "OPA (Organizational Process Assets) updates"
+                ]
+            },
+            "12.3": {
+                "inputs": [
+                    "Project management plan",
+                    "Requirements management plan",
+                    "Risk management plan",
+                    "Procurement management plan",
+                    "Change management plan",
+                    "Schedule baseline",
+                    "Project documents",
+                    "Assumption log",
+                    "Lessons learned register",
+                    "Milestone list",
+                    "Quality reports",
+                    "Requirements documentation",
+                    "Requirements traceability matrix",
+                    "Risk register",
+                    "Stakeholder register",
+                    "Agreements",
+                    "Procurement documentation",
+                    "Approved change requests",
+                    "Work performance data",
+                    "EEF (Enterprise Environmental Factors)",
+                    "OPA (Organizational Process Assets)"
+                ],
+                "toolsAndTechniques": [
+                    "Expert judgement",
+                    "Claims administration",
+                    "Data analysis",
+                    "Performance reviews",
+                    "Earned value analysis",
+                    "Trend analysis",
+                    "Inspection",
+                    "Audits"
+                ],
+                "outputs": [
+                    "Closed procurements",
+                    "Work performance information",
+                    "Procurement documentation updates",
+                    "Change requests",
+                    "Project management plan updates",
+                    "Risk management plan",
+                    "Procurement management plan",
+                    "Schedule baseline",
+                    "Cost baseline",
+                    "Project documents updates",
+                    "Lessons learned register",
+                    "Resource requirements",
+                    "Requirements traceability matrix",
+                    "Risk register",
+                    "Stakeholder register",
+                    "OPA (Organizational Process Assets) updates"
+                ]
+            },
+            "13.1": {
+                "inputs": [
+                    "Project charter",
+                    "Business documents",
+                    "Business case",
+                    "Benefits management plan",
+                    "Project management plan",
+                    "Communications management plan",
+                    "Stakeholder engagement plan",
+                    "Project documents",
+                    "Change log",
+                    "Issue log",
+                    "Requirements documentation",
+                    "Agreements",
+                    "EEF (Enterprise Environmental Factors)",
+                    "OPA (Organizational Process Assets)"
+                ],
+                "toolsAndTechniques": [
+                    "Expert judgement",
+                    "Data gathering",
+                    "Questionnaires and surveys",
+                    "Brainstorming",
+                    "Data analysis",
+                    "Stakeholder analysis",
+                    "Document analysis",
+                    "Data representation",
+                    "Stakeholder mapping/representation",
+                    "Meetings"
+                ],
+                "outputs": [
+                    "Stakeholder register",
+                    "Change requests",
+                    "Project management plan updates",
+                    "Requirements management plan",
+                    "Communications management plan",
+                    "Risk management plan",
+                    "Stakeholder engagement plan",
+                    "Project documents updates",
+                    "Assumption log",
+                    "Issue log",
+                    "Risk register"
+                ]
+            },
+            "13.2": {
+                "inputs": [
+                    "Project charter",
+                    "Project management plan",
+                    "Resource management plan",
+                    "Communications management plan",
+                    "Risk management plan",
+                    "Project documents",
+                    "Assumption log",
+                    "Change log",
+                    "Issue log",
+                    "Project schedule",
+                    "Risk register",
+                    "Stakeholder register",
+                    "Agreements",
+                    "EEF (Enterprise Environmental Factors)",
+                    "OPA (Organizational Process Assets)"
+                ],
+                "toolsAndTechniques": [
+                    "Expert judgement",
+                    "Data gathering",
+                    "Benchmarking",
+                    "Data analysis",
+                    "Assumption and constraint analysis",
+                    "Root cause analysis",
+                    "Decision making",
+                    "Prioritization/ranking",
+                    "Data representation",
+                    "Mind mapping",
+                    "Stakeholder engagement assessment matrix",
+                    "Meetings"
+                ],
+                "outputs": [
+                    "Stakeholder engagement plan"
+                ]
+            },
+            "13.3": {
+                "inputs": [
+                    "Project management plan",
+                    "Communications management plan",
+                    "Risk management plan",
+                    "Stakeholder engagement plan",
+                    "Change management plan",
+                    "Project documents",
+                    "Change log",
+                    "Issue log",
+                    "Lessons learned register",
+                    "Stakeholder register",
+                    "EEF (Enterprise Environmental Factors)",
+                    "OPA (Organizational Process Assets)"
+                ],
+                "toolsAndTechniques": [
+                    "Expert judgement",
+                    "Communication skills",
+                    "Feedback",
+                    "Interpersonal and team skills",
+                    "Conflict management",
+                    "Cultural awareness",
+                    "Negotiation",
+                    "Observation/conversation",
+                    "Political awareness",
+                    "Ground rules",
+                    "Meetings"
+                ],
+                "outputs": [
+                    "Change requests",
+                    "Project management plan updates",
+                    "Communications management plan",
+                    "Stakeholder engagement plan",
+                    "Project documents updates",
+                    "Change log",
+                    "Issue log",
+                    "Lessons learned register",
+                    "Stakeholder register"
+                ]
+            },
+            "13.4": {
+                "inputs": [
+                    "Project management plan",
+                    "Resource management plan",
+                    "Communications management plan",
+                    "Stakeholder engagement plan",
+                    "Project documents",
+                    "Issue log",
+                    "Lessons learned register",
+                    "Project communications",
+                    "Risk register",
+                    "Stakeholder register",
+                    "Work performance data",
+                    "EEF (Enterprise Environmental Factors)",
+                    "OPA (Organizational Process Assets)"
+                ],
+                "toolsAndTechniques": [
+                    "Data analysis",
+                    "Alternatives analysis",
+                    "Root cause analysis",
+                    "Stakeholder analysis",
+                    "Decision making",
+                    "Multicriteria decision analysis",
+                    "Voting",
+                    "Data representation",
+                    "Stakeholder engagement assessment matrix",
+                    "Communication skills",
+                    "Feedback",
+                    "Presentations",
+                    "Interpersonal and team skills",
+                    "Active listening",
+                    "Cultural awareness",
+                    "Leadership",
+                    "Networking",
+                    "Political awareness",
+                    "Meetings"
+                ],
+                "outputs": [
+                    "Work performance information",
+                    "Change requests",
+                    "Project management plan updates",
+                    "Resource management plan",
+                    "Communications management plan",
+                    "Stakeholder engagement plan",
+                    "Project documents updates",
+                    "Issue log",
+                    "Lessons learned register",
+                    "Risk register",
+                    "Stakeholder register"
+                ]
+            }
+        },
+        "concepts": {
+            "principles": [],
+            "roles": [],
+            "notes": [
+                "Optional: add your own notes or licensed material here. This repo intentionally does not embed PMBOK copyrighted explanatory text or full ITTO tables."
+            ]
+        },
+        "processes": [
+            {
+                "id": "4.1",
+                "name": "Develop Project Charter",
+                "processGroup": "Initiating",
+                "knowledgeArea": "Integration Management"
+            },
+            {
+                "id": "13.1",
+                "name": "Identify Stakeholders",
+                "processGroup": "Initiating",
+                "knowledgeArea": "Stakeholder Management"
+            },
+            {
+                "id": "4.2",
+                "name": "Develop Project Management Plan",
+                "processGroup": "Planning",
+                "knowledgeArea": "Integration Management"
+            },
+            {
+                "id": "5.1",
+                "name": "Plan Scope Management",
+                "processGroup": "Planning",
+                "knowledgeArea": "Scope Management"
+            },
+            {
+                "id": "5.2",
+                "name": "Collect Requirements",
+                "processGroup": "Planning",
+                "knowledgeArea": "Scope Management"
+            },
+            {
+                "id": "5.3",
+                "name": "Define Scope",
+                "processGroup": "Planning",
+                "knowledgeArea": "Scope Management"
+            },
+            {
+                "id": "5.4",
+                "name": "Create WBS",
+                "processGroup": "Planning",
+                "knowledgeArea": "Scope Management"
+            },
+            {
+                "id": "6.1",
+                "name": "Plan Schedule Management",
+                "processGroup": "Planning",
+                "knowledgeArea": "Schedule Management"
+            },
+            {
+                "id": "6.2",
+                "name": "Define Activities",
+                "processGroup": "Planning",
+                "knowledgeArea": "Schedule Management"
+            },
+            {
+                "id": "6.3",
+                "name": "Sequence Activities",
+                "processGroup": "Planning",
+                "knowledgeArea": "Schedule Management"
+            },
+            {
+                "id": "6.4",
+                "name": "Estimate Activity Durations",
+                "processGroup": "Planning",
+                "knowledgeArea": "Schedule Management"
+            },
+            {
+                "id": "6.5",
+                "name": "Develop Schedule",
+                "processGroup": "Planning",
+                "knowledgeArea": "Schedule Management"
+            },
+            {
+                "id": "7.1",
+                "name": "Plan Cost Management",
+                "processGroup": "Planning",
+                "knowledgeArea": "Cost Management"
+            },
+            {
+                "id": "7.2",
+                "name": "Estimate Costs",
+                "processGroup": "Planning",
+                "knowledgeArea": "Cost Management"
+            },
+            {
+                "id": "7.3",
+                "name": "Determine Budget",
+                "processGroup": "Planning",
+                "knowledgeArea": "Cost Management"
+            },
+            {
+                "id": "8.1",
+                "name": "Plan Quality Management",
+                "processGroup": "Planning",
+                "knowledgeArea": "Quality Management"
+            },
+            {
+                "id": "9.1",
+                "name": "Plan Resource Management",
+                "processGroup": "Planning",
+                "knowledgeArea": "Resource Management"
+            },
+            {
+                "id": "9.2",
+                "name": "Estimate Activity Resources",
+                "processGroup": "Planning",
+                "knowledgeArea": "Resource Management"
+            },
+            {
+                "id": "10.1",
+                "name": "Plan Communications Management",
+                "processGroup": "Planning",
+                "knowledgeArea": "Communications Management"
+            },
+            {
+                "id": "11.1",
+                "name": "Plan Risk Management",
+                "processGroup": "Planning",
+                "knowledgeArea": "Risk Management"
+            },
+            {
+                "id": "11.2",
+                "name": "Identify Risks",
+                "processGroup": "Planning",
+                "knowledgeArea": "Risk Management"
+            },
+            {
+                "id": "11.3",
+                "name": "Perform Qualitative Risk Analysis",
+                "processGroup": "Planning",
+                "knowledgeArea": "Risk Management"
+            },
+            {
+                "id": "11.4",
+                "name": "Perform Quantitative Risk Analysis",
+                "processGroup": "Planning",
+                "knowledgeArea": "Risk Management"
+            },
+            {
+                "id": "11.5",
+                "name": "Plan Risk Responses",
+                "processGroup": "Planning",
+                "knowledgeArea": "Risk Management"
+            },
+            {
+                "id": "12.1",
+                "name": "Plan Procurement Management",
+                "processGroup": "Planning",
+                "knowledgeArea": "Procurement Management"
+            },
+            {
+                "id": "13.2",
+                "name": "Plan Stakeholder Engagement",
+                "processGroup": "Planning",
+                "knowledgeArea": "Stakeholder Management"
+            },
+            {
+                "id": "4.3",
+                "name": "Direct and Manage Project Work",
+                "processGroup": "Executing",
+                "knowledgeArea": "Integration Management"
+            },
+            {
+                "id": "4.4",
+                "name": "Manage Project Knowledge",
+                "processGroup": "Executing",
+                "knowledgeArea": "Integration Management"
+            },
+            {
+                "id": "8.2",
+                "name": "Manage Quality",
+                "processGroup": "Executing",
+                "knowledgeArea": "Quality Management"
+            },
+            {
+                "id": "9.3",
+                "name": "Acquire Resources",
+                "processGroup": "Executing",
+                "knowledgeArea": "Resource Management"
+            },
+            {
+                "id": "9.4",
+                "name": "Develop Team",
+                "processGroup": "Executing",
+                "knowledgeArea": "Resource Management"
+            },
+            {
+                "id": "9.5",
+                "name": "Manage Team",
+                "processGroup": "Executing",
+                "knowledgeArea": "Resource Management"
+            },
+            {
+                "id": "10.2",
+                "name": "Manage Communications",
+                "processGroup": "Executing",
+                "knowledgeArea": "Communications Management"
+            },
+            {
+                "id": "11.6",
+                "name": "Implement Risk Responses",
+                "processGroup": "Executing",
+                "knowledgeArea": "Risk Management"
+            },
+            {
+                "id": "12.2",
+                "name": "Conduct Procurements",
+                "processGroup": "Executing",
+                "knowledgeArea": "Procurement Management"
+            },
+            {
+                "id": "13.3",
+                "name": "Manage Stakeholder Engagement",
+                "processGroup": "Executing",
+                "knowledgeArea": "Stakeholder Management"
+            },
+            {
+                "id": "4.5",
+                "name": "Monitor and Control Project Work",
+                "processGroup": "Monitoring and Controlling",
+                "knowledgeArea": "Integration Management"
+            },
+            {
+                "id": "4.6",
+                "name": "Perform Integrated Change Control",
+                "processGroup": "Monitoring and Controlling",
+                "knowledgeArea": "Integration Management"
+            },
+            {
+                "id": "5.5",
+                "name": "Validate Scope",
+                "processGroup": "Monitoring and Controlling",
+                "knowledgeArea": "Scope Management"
+            },
+            {
+                "id": "5.6",
+                "name": "Control Scope",
+                "processGroup": "Monitoring and Controlling",
+                "knowledgeArea": "Scope Management"
+            },
+            {
+                "id": "6.6",
+                "name": "Control Schedule",
+                "processGroup": "Monitoring and Controlling",
+                "knowledgeArea": "Schedule Management"
+            },
+            {
+                "id": "7.4",
+                "name": "Control Costs",
+                "processGroup": "Monitoring and Controlling",
+                "knowledgeArea": "Cost Management"
+            },
+            {
+                "id": "8.3",
+                "name": "Control Quality",
+                "processGroup": "Monitoring and Controlling",
+                "knowledgeArea": "Quality Management"
+            },
+            {
+                "id": "9.6",
+                "name": "Control Resources",
+                "processGroup": "Monitoring and Controlling",
+                "knowledgeArea": "Resource Management"
+            },
+            {
+                "id": "10.3",
+                "name": "Monitor Communications",
+                "processGroup": "Monitoring and Controlling",
+                "knowledgeArea": "Communications Management"
+            },
+            {
+                "id": "11.7",
+                "name": "Monitor Risks",
+                "processGroup": "Monitoring and Controlling",
+                "knowledgeArea": "Risk Management"
+            },
+            {
+                "id": "12.3",
+                "name": "Control Procurements",
+                "processGroup": "Monitoring and Controlling",
+                "knowledgeArea": "Procurement Management"
+            },
+            {
+                "id": "13.4",
+                "name": "Monitor Stakeholder Engagement",
+                "processGroup": "Monitoring and Controlling",
+                "knowledgeArea": "Stakeholder Management"
+            },
+            {
+                "id": "4.7",
+                "name": "Close Project or Phase",
+                "processGroup": "Closing",
+                "knowledgeArea": "Integration Management"
+            }
+        ]
+    }
 }
